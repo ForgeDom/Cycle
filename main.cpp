@@ -13,6 +13,9 @@ int main() {
 	cout << "Ñê³ëüêè ÿùèê³â âì³ùóºòüñÿ â 1 ìàøèíó?" << endl;
 	cin >> b;
 	int cars = 0;
+	if (a < 0) {
+		cout << "Error" << endl;
+	}
 	while (a != 0) {
 		a -= b;
 		cars++;
